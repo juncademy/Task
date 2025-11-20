@@ -1,4 +1,6 @@
 let totalBelanja = 350000;
+let diskon;
+
 if(totalBelanja >= 500000) {
     console.log(diskon = 0.20)
 }
@@ -9,8 +11,9 @@ else if(totalBelanja >= 100000) {
     console.log(diskon = 0.05)
 }
 
-harga_diskon = totalBelanja * diskon;
-pembayaran = totalBelanja - harga_diskon
+hargaDiskon = totalBelanja * diskon;
+totalBayar = totalBelanja - hargaDiskon;
 
-console.log(totalBelanja: "RP")
-
+console.log("Total belanja: Rp" + totalBelanja);
+console.log("Diskon: " + (diskon * 100) + "%")
+console.log("Total bayar: Rp" + totalBayar)
