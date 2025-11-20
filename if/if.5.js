@@ -1,13 +1,10 @@
-function cekSuhu(celsius) {
-  if (celsius >= 35) {
-    console.log("Sangat Panas");
-  } else if (celsius >= 25) {
-    console.log("Panas");
-  } else if (celsius >= 15) {
-    console.log("Hangat");
-  }
+let suhu = 28;
+if(suhu >= 35) {
+  console.log("Suhu " + suhu + "⁰C:" + " Sangat Panas")
 }
-
-console.log("Suhu 28°C: ");
-cekSuhu(28);
-
+else if(suhu >=25) {
+  console.log("Suhu " + suhu + "⁰C:" + " Panas")
+}
+else if(suhu >=15) {
+  console.log("Suhu " + suhu + "⁰C:" + " Hangat")
+}

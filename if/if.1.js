@@ -1,9 +1,5 @@
-function cekPositif(angka) {
-  if (angka > 0) {
-    console.log("Angka positif ditemukan!");
-  }
-
-  console.log("Program selesai");
+let angka = 15;
+if (angka >= 0) {
+  console.log("Angka positif ditemukan!")
 }
-
-cekPositif(10);
+console.log("Program selesai");

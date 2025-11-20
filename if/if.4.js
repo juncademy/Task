@@ -1,11 +1,7 @@
-function cekPassword(password) {
-  const correctPassword = "admin123";
-
-  if (password === correctPassword) {
-    console.log("Login berhasil! Selamat datang.");
-  } else {
-    console.log("Password salah!");
-  }
+let password = "admin123";
+if (password === "admin123") {
+  console.log("Login berhasil! Selamat datang.")
 }
-
-cekPassword("admin123");
+else {
+  console.log("Login gagal! Coba lagi.")
+}
